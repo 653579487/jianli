@@ -45,12 +45,6 @@ $("#jq_my_iframe .start").on('click',()=>{
 		$('#jq_my_iframe .toll_title').text("微金所");
 		$('#jq_my_iframe').show();
 	})
-	/*添加百度页面*/
-	$("#jq_baidu").on('click',()=>{
-		$('#jq_my_iframe .window_conten').html($('<iframe src="https://image.baidu.com/" frameborder="0" width="100%" height="470px"></iframe>'));
-		$('#jq_my_iframe .toll_title').text("baidu");
-		$('#jq_my_iframe').show();
-	})
 	/*添加简历页面*/
 	$("#jq_jianli").on('click',()=>{
 		$('#jq_my_iframe .window_conten').html($('<iframe src="yanye/resume/index.html" frameborder="0" width="100%" height="470px"></iframe>'));
@@ -63,6 +57,12 @@ $("#jq_my_iframe .start").on('click',()=>{
 		$('#jq_my_iframe .toll_title').text("一起来看流星雨");
 		$('#jq_my_iframe').show();
 	})
+	/*添加百度页面*/
+	$("#jq_baidu").on('click',()=>{
+		$('#jq_my_iframe .window_conten').html($('<iframe src="https://image.baidu.com/" frameborder="0" width="100%" height="470px"></iframe>'));
+		$('#jq_my_iframe .toll_title').text("baidu");
+		$('#jq_my_iframe').show();
+	})
 	/*用户离开了*/
 	var s = $("#jq_likai").on('click',()=>{
 		$('#jq_likai_content').show();
@@ -73,7 +73,7 @@ $("#jq_my_iframe .start").on('click',()=>{
 	})
 	/*添加压扁小鸟页面*/
 	$("#jq_ybxn").on('click',()=>{
-		$('#jq_my_iframe .window_conten').html($('<iframe src="://play.h5.gamedog.cn/ybxn/" frameborder="0" width="100%" height="470px"></iframe>'));
+		$('#jq_my_iframe .window_conten').html($('<iframe src="http://play.h5.gamedog.cn/ybxn/" frameborder="0" width="100%" height="470px"></iframe>'));
 		$('#jq_my_iframe .toll_title').text("压扁小鸟");
 		$('#jq_my_iframe').show();
 
