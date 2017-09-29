@@ -74,9 +74,10 @@ $("#jq_my_iframe .start").on('click',()=>{
 	})
 	/*添加压扁小鸟页面*/
 	$("#jq_ybxn").on('click',()=>{
-		$('#jq_my_iframe .window_conten').html($('<iframe src="https://play.h5.gamedog.cn/ybxn/" frameborder="0" width="100%" height="470px"></iframe>'));
+		$('#jq_my_iframe .window_conten').html($('<iframe src="://play.h5.gamedog.cn/ybxn/" frameborder="0" width="100%" height="470px"></iframe>'));
 		$('#jq_my_iframe .toll_title').text("压扁小鸟");
 		$('#jq_my_iframe').show();
+
 	})
 	/*添加常用网站页面*/
 	$("#jq_cywz").on('click',()=>{
