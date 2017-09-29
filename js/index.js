@@ -1,5 +1,4 @@
 ;(function(){
-
 	/*网易云音乐隐藏*/
 	$('#my_music > .close').on('click',()=>{
 		$('#my_music').hide();
@@ -115,34 +114,6 @@ $("#jq_my_iframe .start").on('click',()=>{
  		})
  	});
 
-
-
-
-
-
-
- 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	/*显示下边的时间*/
 	setInterval(()=>{
 	var date = new Date();
@@ -151,20 +122,8 @@ $("#jq_my_iframe .start").on('click',()=>{
 	var m = date.getMinutes() > 10 ? date.getMinutes():'0'+date.getMinutes();
 	var s = date.getSeconds() > 10 ? date.getSeconds():'0'+date.getSeconds();
 	$('#window_data >p').text(`${h}:${m}:${s}`);
-	},1000)
-
-	
-
-
-
-
-
-
-
-
-}
-
-	
+	},1000);
+}	
 )();
 
 	
